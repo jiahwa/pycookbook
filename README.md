@@ -6,13 +6,17 @@ Since available by default in Python 3.3+, "Virtual Environments" is a better ex
 
 Basic usage is like so:
 
->Useing [venv]:
+>Using [venv]:
+
+<span style="color:green;font-weight:bold;">[GOOD]</span>
 
 |Unix/macOS|Windows|
 |-|-|
 |python3 -m venv `<DIR>`<br>`source <DIR>`/bin/activate|py -m venv `<DIR>`<br>`<DIR>`\Scripts\activate|
 
->Useing [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
+>Using [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
+
+<span style="color:red;font-weight:bold;">[BAD]</span>
 
 |Unix/macOS|Windows|
 |-|-|
@@ -23,7 +27,9 @@ To install virtualenv, you can do :
 pipx install virtualenv
 virtualenv --help
 ```
-Pipx is provided by a Python 3.5+ interpreter
+[Pipx](https://pypi.org/project/pipx/) is provided by a Python 3.5+ interpreter.
+
+To install pipx, visit [./commands/py.md](./commands/py.md###&nbsp;Install&nbsp;pipx)
 
 For more information, see the [venv] docs or the [virtualenv] docs.
 
