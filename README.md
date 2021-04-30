@@ -1,47 +1,25 @@
 # pycookbook
 cook book for python, make things better to do
 
-## Start with `venv`
-Since available by default in Python 3.3+, "Virtual Environments" is a better experience rather than being installed globally.
+## **`venv`** vs **`virtualenv`**
+- **`venv`** : A package in the Python Standard Library (starting with Python 3.3) for creating [Virtual Environments]
+- **`virtualenv`** : virtualenv is a tool which uses the command-line path environment variable to create isolated Python [Virtual Environments], much as venv does. virtualenv provides additional functionality, compared to venv, by supporting Python 2.7 and by providing convenient features for configuring, maintaining, duplicating, and troubleshooting the virtual environments. 
 
-Basic usage is like so:
+For more information, see the section on [Creating Virtual Environments].
 
->Using [venv]:
+To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environments)
 
-<span style="color:green;font-weight:bold;">[GOOD]</span>
+[Virtual Environments]:(https://packaging.python.org/glossary/#term-Virtual-Environment)
+[Creating Virtual Environments]:(https://packaging.python.org/tutorials/installing-packages/#creating-and-using-virtual-environments)
 
-|Unix/macOS|Windows|
-|-|-|
-|python3 -m venv `<DIR>`<br>`source <DIR>`/bin/activate|py -m venv `<DIR>`<br>`<DIR>`\Scripts\activate|
+## Todo list
+- Get color from an image, use third-party plugin [Pillow](https://pypi.org/project/Pillow/)
 
->Using [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
-
-<span style="color:red;font-weight:bold;">[BAD]</span>
-
-|Unix/macOS|Windows|
-|-|-|
-|python3 -m virtualenv `<DIR>`<br>`source <DIR>`/bin/activate|virtualenv `<DIR>`<br>`<DIR>`\Scripts\activate|
-
-To install virtualenv, you can do :
-```
-pipx install virtualenv
-virtualenv --help
-```
-[Pipx](https://pypi.org/project/pipx/) is provided by a Python 3.5+ interpreter.
-
-To install pipx, visit [./commands/py.md](./commands/py.md###&nbsp;Install&nbsp;pipx)
-
-For more information, see the [venv] docs or the [virtualenv] docs.
-
-[venv]:https://docs.python.org/3/library/venv.html
-[virtualenv]:http://virtualenv.pypa.io/
-
-## TODO:Get color from an image
-- [Pillow](https://pypi.org/project/Pillow/)
+- Scan directory and files in a folder
 
 ## Coding Rules
 
 - [learn rules for python](https://www.python.org/dev/peps/pep-0008/)
 
-## LICENSE
+## License
 MIT
