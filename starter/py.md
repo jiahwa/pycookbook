@@ -9,7 +9,7 @@
 
 |Unix/macOS|Windows|
 |-|-|
-|python3 -m venv `<DIR>`<br>`source <DIR>`/bin/activate|py -m venv `<DIR>`<br>`<DIR>`\Scripts\activate|
+|python -m venv `<DIR>`<br>`source <DIR>`/bin/activate|py -m venv `<DIR>`<br>`<DIR>`\Scripts\activate|
 
 >Using [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
 
@@ -17,7 +17,7 @@
 
 |Unix/macOS|Windows|
 |-|-|
-|python3 -m virtualenv `<DIR>`<br>`source <DIR>`/bin/activate|virtualenv `<DIR>`<br>`<DIR>`\Scripts\activate|
+|python -m virtualenv `<DIR>`<br>`source <DIR>`/bin/activate|virtualenv `<DIR>`<br>`<DIR>`\Scripts\activate|
 
 To install virtualenv, you can do :
 ```
@@ -37,14 +37,15 @@ For more information, see the [venv] docs or the [virtualenv] docs.
 On Windows, as below:
 ```sh
 py -m pip --version
+# pip version 21.1.1 is available, you'd consider upgrading so pipx can be used
 python -m pip install --upgrade pip
 ```
 
 ### Install pipx
 On Windows, as below:
 ```sh
-python3 -m pip install --user pipx
-python3 -m pipx ensurepath
+py -m pip install --user pipx
+py -m pipx ensurepath
 pipx completions
 ```
 
