@@ -32,6 +32,10 @@ To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environ
 
 - issue: [`NoReturn` for python 3.6.0](./q&a/NoReturn.md)
 
+- warning: [`NotOnPath`](./q&a/NotOnPath.md)
+
+- log: [startup `pipx`](./q&a/startuppipx.md)
+
 ## Coding Rules
 
 - [learn rules for python](https://www.python.org/dev/peps/pep-0008/)
