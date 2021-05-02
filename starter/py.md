@@ -13,7 +13,7 @@
 
 >Using [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
 
-❌<span color="red">**[BAD]**</span>
+✅<span color="red">**[GOOD]**</span>
 
 |Unix/macOS|Windows|
 |-|-|
