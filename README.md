@@ -15,7 +15,10 @@ To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environ
 [Virtual Environments]: https://packaging.python.org/glossary/#term-Virtual-Environment
 [Creating Virtual Environments]: https://packaging.python.org/tutorials/installing-packages/#creating-and-using-virtual-environments
 
-## Todo list
+## A Framework Is A Better Way
+For more , visit: [./starter/framework.md](./starter/framework.md)
+
+## Todo List
 - colorpicker: Get color from an image.
 
 - ebookspider: This program use sprider programe to search ebooks from website.
@@ -26,7 +29,7 @@ To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environ
 
 - phonemsg: This program used to send phone messages to someone
 
--
+- *-snip-*
 
 ## Q&A
 
