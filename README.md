@@ -26,7 +26,7 @@ To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environ
 
 - phonemsg: This program used to send phone messages to someone
 
--
+- *-snip-*
 
 ## Q&A
 
