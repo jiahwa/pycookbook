@@ -15,7 +15,7 @@ To install, visit [./starter/py.md](./starter/py.md###&nbsp;Virtual&nbsp;Environ
 [Virtual Environments]: https://packaging.python.org/glossary/#term-Virtual-Environment
 [Creating Virtual Environments]: https://packaging.python.org/tutorials/installing-packages/#creating-and-using-virtual-environments
 
-## Todo list
+## Todo List
 - colorpicker: Get color from an image.
 
 - ebookspider: This program use sprider programe to search ebooks from website.
