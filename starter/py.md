@@ -5,7 +5,7 @@
 
 >Using [venv]:
 
-✅<span color="green">**[GOOD]**</span>
+✅<span style="color:green;">**[GOOD]**</span>
 
 |Unix/macOS|Windows|
 |-|-|
@@ -13,7 +13,7 @@
 
 >Using [virtualenv](https://packaging.python.org/key_projects/#virtualenv):
 
-✅<span color="red">**[GOOD]**</span>
+✅<span style="color:green;">**[GOOD]**</span>
 
 |Unix/macOS|Windows|
 |-|-|
