@@ -34,6 +34,8 @@ For more , visit: [./starter/framework.md](./starter/framework.md)
 ## coverage
 If you want a number to aim for, try to get over 80% coverage (and don't feel bad if you find it hard to get better than 90% coverage).
 
+For more, visit: [./starter/coverage.md](./starter/coverage.md)
+
 ## Q&A
 
 - issue: [`NoReturn` for python 3.6.0](./q&a/NoReturn.md)
