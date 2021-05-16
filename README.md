@@ -2,7 +2,7 @@
 cook book for python, make things better to do
 
 ## Doc
-visit site http://
+visit site https://jiahwa.github.io/pycookbook/
 
 ## **`venv`** vs **`virtualenv`**
 - **`venv`** : A package in the Python Standard Library (starting with Python 3.3) for creating [Virtual Environments]
