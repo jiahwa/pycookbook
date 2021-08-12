@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from os import walk
+from os import walk, getcwd
 
-rootDir = 'E:\\workspace\\yujahuaGitHub\\GitLab\\fresh-grad-2021-train'
+rootDir = getcwd()
 
 for root, dir, files in walk(rootDir):
     match = root.rsplit("\\",1)[1]
